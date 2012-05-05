@@ -7,7 +7,7 @@ module Bramipsum
     end
 
     def self.processed_source
-      self.source.split("\n")
+      self.source.split("\n").uniq
     end
 
     private
