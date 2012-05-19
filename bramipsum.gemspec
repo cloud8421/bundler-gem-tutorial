@@ -4,8 +4,8 @@ require File.expand_path('../lib/bramipsum/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Claudio Ortolina"]
   gem.email         = ["claudio@jumpzero.com"]
-  gem.description   = %q{Random sentences from Bram Stoker's Dracula}
-  gem.summary       = %q{Generate one or more dummy sentences taken from Bram Stoker's Dracula}
+  gem.description   = %q{TEST GEM, do not use! Random sentences from Bram Stoker's Dracula}
+  gem.summary       = %q{TEST GEM, do not use! Generate one or more dummy sentences taken from Bram Stoker's Dracula}
   gem.homepage      = ""
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
