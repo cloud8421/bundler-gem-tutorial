@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "bramipsum"
   gem.require_paths = ["lib"]
   gem.version       = Bramipsum::VERSION
+  gem.add_development_dependency 'rake', '>= 0.9.2'
 end
